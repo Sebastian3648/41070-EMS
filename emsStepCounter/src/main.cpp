@@ -1,4 +1,7 @@
 #include <Arduino.h>
+#include <ADXL335.h>
+
+ADXL335 accel;
 
 // put function declarations here:
 int myFunction(int, int);
@@ -6,6 +9,7 @@ int myFunction(int, int);
 void setup() {
   // put your setup code here, to run once:
   int result = myFunction(2, 3);
+  accel.begin();
 }
 
 void loop() {
