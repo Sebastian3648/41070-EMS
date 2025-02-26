@@ -14,6 +14,7 @@ void setup() {
 
 void loop() {
   // put your main code here, to run repeatedly:
+  Serial.println("Hello World");
 }
 
 // put function definitions here:
